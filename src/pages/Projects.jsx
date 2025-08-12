@@ -3,23 +3,18 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website built with React and Vite.',
-    link: '#',
-  },
-  {
-    title: 'Weather App',
-    description: 'A simple weather app using OpenWeatherMap API.',
-    link: '#',
-  },
-  {
     title: 'GoodCode',
     description:
       'GoodCode is a dynamic full-stack application built with React (frontend), Node.js and Express (backend), and MongoDB (database). The platform empowers users to create accounts or log in via Google authentication seamlessly. It offers a curated list of coding challenges, enabling users to solve problems in popular programming languages such as C#, Java, Python, and JavaScript. The application leverages the Piston open-source runtime engine to execute and evaluate code submissions efficiently. To enhance user engagement, GoodCode includes a real-time leaderboard, ranking users based on the number of challenges solved. Additionally, interactive user profiles provide detailed insights, including the total problems solved, links to each solved problem (with problem IDs), and the programming languages used. GoodCode combines modern web technologies, gamified learning elements, and a robust backend to deliver an engaging and scalable platform for programming enthusiasts.',
     link: 'https://github.com/CristiL75/goodCodeProject',
   },
+  {
+    title: 'DonareMancare',
+    description:
+      'Developed a full-stack web platform that connects food donors with beneficiaries, streamlining the donation process through geolocation and AI-based suggestions. Implemented user registration with role-based functionality, allowing donors to view collection points and needed items, while beneficiaries can submit delivery addresses and food requests. Integrated an interactive map using Leaflet.js and Leaflet Control Geocoder for geospatial visualization of donation logistics. Built the backend with Node.js and Express.js, and used MongoDB for storing user data and donation records. Incorporated AI algorithms to provide intelligent food donation recommendations. Technologies: JavaScript, Node.js, Express, MongoDB, Leaflet.js, Geocoding, AI, REST API, HTML, CSS.',
+    link: 'https://github.com/CristiL75/DonareMancare',
+  },
 ];
-
 
 export default function Projects() {
   return (
