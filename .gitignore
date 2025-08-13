@@ -41,3 +41,6 @@ yarn.lock
 
 # Public uploads
 public/uploads/
+
+*storybook.log
+storybook-static

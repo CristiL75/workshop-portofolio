@@ -1,4 +1,6 @@
 
+import { useState } from 'react';
+
 const linkedinUrl = 'https://www.linkedin.com/in/latcu-cristian-simion-578802172';
 const githubUrl = 'https://github.com/CristiL75';
 const profilePhoto = '/public-placeholder.png'; 
@@ -60,4 +62,5 @@ export default function Contact() {
     </section>
   );
 }
-import { useState } from 'react';
+
+

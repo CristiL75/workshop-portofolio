@@ -22,7 +22,11 @@ export default function Projects() {
       <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
       <div className="w-full max-w-4xl px-4 mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-2">
         {projects.map((project, idx) => (
-          <ProjectCard key={idx} {...project} />
+            <div key = {idx}> 
+                <ProjectCard  {...project} />
+
+            </div>
+          
         ))}
       </div>
     </section>
